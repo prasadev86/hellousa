@@ -5,11 +5,5 @@ plugins {
 sonarqube {
     properties {
         property "sonar.exclusions", "**/*Generated.java"
-sonar.projectKey=java-sonar-runner-simple
-sonar.projectName=Simple Java project analyzed with the SonarQube Runner
-sonar.projectVersion=1.0
-sonar.sources=src
-sonar.language=java
-sonar.sourceEncoding=UTF-8
     }
 }
