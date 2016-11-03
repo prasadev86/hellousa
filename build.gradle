@@ -7,3 +7,13 @@ sonarqube {
         property "sonar.exclusions", "**/*Generated.java"
     }
 }
+{
+  "id" : "org.sonarqube",
+  "version" : "2.1",
+  "implementation" : {
+    "gav" : "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.1",
+    "repo" : "https://plugins.gradle.org/m2"
+  },
+  "implementationType" : "M2_JAR",
+  "legacy" : true
+}
